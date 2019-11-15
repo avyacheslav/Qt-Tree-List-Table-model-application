@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <product name="Wall cabinet">
+    <reference id="door" name="Left door"/>
+    <reference id="door" name="Right door"/>
+    <reference id="vertical_panel" name="Left side wall"/>
+    <reference id="vertical_panel" name="Right side wall"/>
+    <reference id="horizontal_panel" name="Top wall"/>
+    <reference id="horizontal_panel" name="Bottom wall"/>
+    <reference id="horizontal_panel" name="Shelf"/>
+  </product>
+  <product name="One more Wall cabinet">
+    <reference id="door" name="Left door"/>
+    <reference id="door" name="Right door"/>
+    <reference id="vertical_panel" name="Left side wall"/>
+    <reference id="vertical_panel" name="Right side wall"/>
+    <reference id="horizontal_panel" name="Top wall"/>
+    <reference id="horizontal_panel" name="Bottom wall"/>
+    <reference id="horizontal_panel" name="Shelf"/>
+  </product>
+  <assembly id="door">
+    <reference id="door_panel"/>
+    <reference id="door_handle"/>
+    <reference id="hinge_assembly" name="Top hinge"/>
+    <reference id="hinge_assembly" name="Bottom hinge"/>
+  </assembly>
+  <part id="door_panel">
+    <name>Door panel</name>
+  </part>
+  <part id="door_handle">
+    <name>Door handle</name>
+  </part>
+  <assembly id="hinge_assembly">
+    <reference id="hinge_part"/>
+    <reference id="screw"/>
+    <reference id="screw"/>
+    <reference id="screw"/>
+    <reference id="screw"/>
+  </assembly>
+  <part id="hinge_part">
+    <name>Hinge</name>
+    <size>
+      <width>39</width>
+      <height>51</height>
+      <depth>1.4</depth>
+    </size>
+    <material>Stainless steel</material>
+    <color>Dark gray</color>
+  </part>
+  <part id="screw">
+    <name>Screw</name>
+  </part>
+    <part id="vertical_panel">
+  </part>
+  <part id="horizontal_panel">
+  </part>
+</document>
